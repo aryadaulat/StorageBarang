@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
 		color:'black'
 	},
   isi: {
-    flex: 0.7,
+    flex: 0.8,
     flexDirection: 'row',
   },
   kotakkatagori: {

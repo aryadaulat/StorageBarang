@@ -66,6 +66,8 @@ export default class Login extends Component {
           <SafeAreaView style={styles.isikotak}>
             <Text style={styles.text}>Kata Sandi</Text>
             <TextInput
+						secureTextEntry={true}
+						color="black"
               style={styles.kotakisi}
               onChangeText={text => this.setState({katasandi: text})}
               placeholder="Kata Sandi"
